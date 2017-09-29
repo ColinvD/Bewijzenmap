@@ -1,0 +1,12 @@
+body {
+background-color: yellow;
+}
+
+
+
+#validatie img {
+    height: 1em;
+    width: auto;
+    border: 0;
+    margin: 0 .3em;
+}

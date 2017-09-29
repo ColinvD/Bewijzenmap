@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="home.css" />
+  <title>Payment Form</title>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">homepagina</a></li>
+      <li><a href="customer.html">customer information</a></li>
+      <li><a href="Post.html">Posting your comments</a></li>
+      <li><a href="Payment.html">Pay</a></li>
+      <li><a href="Configuration.html">PC confirmen</a></li>
+    </ul>
+  </nav>
+  <h1>Payment Form</h1>
+  <h3> All fields are REQUIRED</h3>
+  <form>
+    <fieldset>
+      <legend>Persoonsgegevens</legend
+    <label for="fname">First Name</label> <input type="text" name="fname" id="fname" placeholder="Sam" required autofocus>
+    <br>
+    <label for="lname">Last Name</label> <input type="text" name="lname" id="lname" placeholder="van der Steen" required>
+    <br>
+    <label for="address">Street Address</label> <input type="text" name="address" id="address" placeholder="Sesamstraat 46" required>
+    <br>
+    <label for="city">City</label> <input type="text" name="city" id="city" placeholder="New York" required>
+    <br>
+    <label for="state">State</label> <input type="text" name="state" id="state" placeholder="USA/America" required>
+    <br>
+    <label for="zip">ZIP/Postal Code</label> <input type="text" name="zip" id="zip" placeholder="1234HD" required>
+  </fieldset>
+    <fieldset>
+      <legend>Credit Card Type</legend>
+    <input type="radio" name="cardtype" value="MasterCard" id="MasterCard" required><label for="MasterCard">MasterCard</label>
+    <br>
+    <input type="radio" name="cardtype" value="VISA" id="VISA" required><label for="VISA">VISA</label>
+    <br>
+    <input type="radio" name="cardtype" value="Discover" id="Discover" required><label for="Discover">Discover</label>
+    <br>
+    Credit Card Number <input type="text" name="cardnum" placeholder="4275 3156 0372 5493" required>
+    <br>
+    <p>Expiration Date</p>
+    <select name="expMonth">
+      <option selected> --Month--
+        <option> Jan.
+        <option> Feb.
+        <option> Mar.
+        <option> Apr.
+        <option> May
+        <option> Jun.
+        <option> Jul.
+        <option> Aug.
+        <option> Sep.
+        <option> Oct.
+        <option> Nov.
+        <option> Dec.
+    </select>
+    <select name="expYear">
+      <option selected> --Year--
+        <option>2013
+        <option>2014
+        <option>2015
+        <option>2016
+        <option>2017
+        <option>2018
+    </select>
+  </fieldset>
+    <fieldset>
+      <legend>Special Notes</legend>
+    <textarea rows="4" cols="40" name="comment" placeholder="Enter comment" required></textarea>
+  </fieldset>
+    <br>
+    <input type="checkbox" name="wel" value="wel" id="wel">
+    <label for="wel">
+    Ik wil een e-mail</label>
+    <input type="checkbox" name="niet" value="niet" id="niet">
+    <label for="niet">
+      ik hoef geen e-mail</label>
+    <br>
+    <input type="submit" value="Submit Payment" id="submit">
+  </form>
+  <footer>
+  <div id="validatie">
+    <a href="http://validator.w3.org/check?uri=referer" target="_blank">
+        <img src="http://blog.boyet.com/blog/files/media/image/valid-html5-blue.png" alt="Valide HTML5"></a>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+        <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue.gif" alt="Valide CSS">
+    </a>
+</div>
+</footer>
+</body>
+</html>

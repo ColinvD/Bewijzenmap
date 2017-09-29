@@ -1,0 +1,13 @@
+img{
+  width: 100px;
+  height: 100px;
+}
+#container{
+  margin: auto;
+  border-style: dotted;
+  text-align: center;
+  border-color: blue;
+}
+body{
+  background-color: yellow;
+}

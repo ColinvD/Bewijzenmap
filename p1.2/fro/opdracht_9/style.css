@@ -1,0 +1,67 @@
+body{ /*tablet*/
+  background-color: #0950A0;
+}
+img{
+  border: 0.5em solid #B31E09;
+}
+#logo{
+  border: none;
+  height: 7em;
+  width: 12em;
+}
+#container{
+  margin: auto;
+  background-color: #FEE200;
+  height: 96%;
+  width: 98%;
+}
+#imageholder{
+  width: 80%;
+  height: 60%;
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+}
+#thumbnails img{
+  width: 30%;
+  height: 21%;
+  margin-left: 0.5em;
+}
+#thumbnails img:hover{
+  border: 1em dotted #0950A0;
+}
+@media screen and (max-width: 600px) { /*mobiel*/
+  #logo{
+    border: none;
+    height: 5em;
+    width: 9em;
+  }
+  #imageholder{
+    width: 80%;
+    height: 60%;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+  }
+  #thumbnails img{
+    width: 30%;
+    height: 28%;
+    margin-left: 0.5em;
+  }
+}
+@media only screen and (min-width: 52em){ /*pc*/
+  #logo{
+    border: none;
+    height: 9em;
+    width: 16em;
+  }
+  #imageholder{
+    width: 80%;
+    height: 60%;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+  }
+  #thumbnails img{
+    width: 20%;
+    height: 14%;
+    margin-left: 0.5em;
+  }
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9a6fc059-d157-460f-a0c8-ed504e14eb10" name="MAMP Server" url="http://localhost/opdracht_3">
+        <fileTransfer port="0" mountedRoot="C:\Users\vanDo\Documents\bewijzenmap\p1.2\bac" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,89 @@
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-family: sans-serif;
+  background-image: url('http://c2.plzcdn.com/ZillaIMG/5451da51fffb79e63f400fe625c9d435.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+body{
+  background-color: rgba(24, 220, 98, 0.4);
+}
+
+#wrapper {
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgba(45, 119, 219, 0.8);
+}
+
+header{
+    padding: 1em 2%;
+    background-color: rgba(32, 232, 187, 0.5);
+    color: #8035d2;
+}
+
+h1, h3{
+  margin: 0;
+  font-family: 'Reem Kufi', sans-serif;
+}
+h3{
+  padding-top: 3em;
+}
+.stukken{
+  overflow: auto;
+}
+.stukken>div{
+  float: left;
+  padding: 0 2%;
+  box-sizing: border-box;
+  border-left: dotted 3px #dbf017;
+}
+.stukken>div:first-child{
+  border-left: 0;
+}
+.start{
+  width: 33.33%;
+}
+
+.midden{
+  width: 25%;
+}
+.eind{
+  width: 25%;
+}
+.made{
+  background-color: #db8c2d;
+  color: #f90f6c;
+  padding: 50px;
+  width: 120px;
+  height: 120px;
+  border-radius: 190px;
+  position: absolute;
+  right: 73%;
+  bottom: -25%;
+  box-sizing: content-box;
+  text-align: center;
+  transform: rotate(-10deg);
+  box-shadow: 0 0 3em #78a inset;
+}
+footer {
+  background-color: rgba(28, 236 ,236 ,0.6);
+  font-size: 0.6em;
+}
+footer p {
+  margin: 0;
+  padding: 3em 10% 2em 12.4%;
+}
+.lijnen{
+  text-align: center;
+}
+#validatie img {
+    height: 3em;
+    width: auto;
+    border: 0;
+    margin: 0 .3em;
+}

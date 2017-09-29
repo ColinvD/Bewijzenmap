@@ -1,0 +1,3 @@
+name : ertui\
+age : 656
+postcode : hjgjh

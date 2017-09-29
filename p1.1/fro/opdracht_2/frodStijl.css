@@ -1,0 +1,81 @@
+head {
+  display: none;
+}
+html, body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: #555;
+  height: 2em;
+}
+nav li {
+  display: inline-table;
+  line-height: 2em;
+  padding: 0 1em;
+}
+nav ul li a {
+  color: #bbb;
+  text-decoration: none;
+}
+nav ul li:hover {
+  background-color: #000;
+}
+nav>ul>li>.submenu {
+  display: none;
+  background-color: #555;
+}
+nav>ul>li:hover>.submenu {
+  display: block;
+  position: absolute;
+  background-color: #555;
+  padding-left: 0;
+  margin-left: -1em;
+}
+nav>ul>li:hover>.submenu li {
+  display: block;
+  padding: 0 2em;
+}
+header {
+  background-image: url("../afb/lotrGroot.jpg");
+  color: #ccc;
+  text-shadow: 0 0 10px green;
+  height: 7em;
+  padding: 3em;
+}
+center {
+  text-align: left;
+}
+section {
+  width: 33%;
+  float: left;;
+  box-sizing: border-box;
+  padding: 3em;
+}
+section img {
+  width: 100%;
+  margin-top: -100%;
+}
+section .kopje {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+.imgHouder {
+  width: 100%;
+  padding-top:100%;
+}
+
+td {
+  vertical-align: top;
+  padding: .2em .3em;
+}
+
+footer {
+  clear: left;
+  color: lightgrey;
+  text-align: center;
+  background-color: #363;
+  padding: 2em;
+  font-variant: small-caps;
+}

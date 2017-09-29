@@ -1,0 +1,11 @@
+body{
+  background-color: lime;
+}
+#container{
+  width: 800px;
+  margin: auto;
+}
+
+#canvas{
+  background-color: lime;
+}

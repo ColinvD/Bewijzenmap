@@ -1,0 +1,2 @@
+text = "";
+action = 1;

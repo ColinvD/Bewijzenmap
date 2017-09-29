@@ -1,0 +1,17 @@
+body{
+  background-color: aliceblue;
+}
+fieldset{
+  width: 200px;
+  margin: 0 auto;
+}
+h1{
+  width: 200px;
+  margin: 0 auto;
+}
+input[type="text"], input[type="password"], input[type="color"]{
+  width: 170px;
+}
+input[type="button"], input[type="reset"], input[type="submit"]{
+  width: 100px;
+}

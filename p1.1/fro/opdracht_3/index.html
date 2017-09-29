@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>Koppen en alinea's</title>
+<meta name="author" content="Colin van Dongen">
+<meta name="keywords" content="mediacollege, opdracht1">
+<link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+
+<body>
+<h1>Colin van Dongen</h1>
+	<p>
+Hallo wereld! Met behulp van deze pagina stel ik mezelf voor via het world wide web.</p>
+<h2>Woonplaats</h2>
+	<p>Ik woon in Huizen.</p>
+		<div id="mijnDiv"></div>
+		<div id="mijnDiv2"></div>
+		<div id="goede"></div>
+	<img src="http://www.cdahuizen.nl/wp-content/uploads/2013/02/gemeentehuis-gemeente-huizen.jpg" alt="Huizen" height="150" width="150">
+<h3>Hobby</h3>
+  <ol>
+    <li> Muziek luisteren
+    <ul>
+      <li>verschillende muziek</li>
+      <li>muziek dat ik leuk vind</li>
+    </ul>
+	</li>
+    <li>basketballen</li>
+    <li>gamen</li>
+  </ol>
+<h4>Eten</h4>
+	<p>Mijn favoriete eten is patat.</p>
+<h5>HTML</h5>
+	<p>Vandaag leer ik werken met HTML. Het is even wennen. Dit is mijn tweede/derde webpagina.</p>
+<h6>Basiscursus</h6>
+	<p>Basiscursus MA cursus HTML 5</p>
+<footer>
+  <div id="validatie">
+    <a href="http://validator.w3.org/check?uri=referer" target="_blank">
+        <img src="http://blog.boyet.com/blog/files/media/image/valid-html5-blue.png" alt="Valide HTML5"></a>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+        <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue.gif" alt="Valide CSS">
+    </a>
+</div>
+</footer>
+</body>
+<script>
+var mijnDiv = document.getElementById("mijnDiv");
+var mijnDiv2 = document.getElementById("mijnDiv2");
+var datum = new Date();
+var myVar = setInterval(function(){ myTimer() }, 1000);
+
+function myTimer() {
+    var d = new Date();
+    var t = d.toLocaleTimeString();
+    document.getElementById("mijnDiv").innerHTML = t;
+}
+
+mijnDiv.innerHTML = datum.toLocaleTimeString();
+mijnDiv2.innerHTML = "Datum: " + datum.toDateString();
+
+if(datum.getHours() < 6)
+{
+document.getElementById("goede").innerHTML="Goede nacht";
+}
+else if(datum.getHours() < 12)
+{
+document.getElementById("goede").innerHTML="Goede morgen";
+}
+else if(datum.getHours() < 18)
+{
+document.getElementById("goede").innerHTML="Goede middag";
+}
+else
+{
+	document.getElementById("goede").innerHTML="Goede avond";
+}
+</script>
+</html>

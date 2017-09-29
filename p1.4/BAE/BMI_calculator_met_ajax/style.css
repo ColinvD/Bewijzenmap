@@ -1,0 +1,7 @@
+body{
+    background-color: cyan;
+}
+#container{
+    width: 800px;
+    margin: auto;
+}

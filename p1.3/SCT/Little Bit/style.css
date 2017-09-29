@@ -1,0 +1,10 @@
+body{
+  background-color: red;
+  }
+#canvas{
+    background-color: gray;
+}
+#container{
+  width: 800px;
+  margin: auto;
+}

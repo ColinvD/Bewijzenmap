@@ -1,0 +1,73 @@
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 2em;
+}
+nav li {
+  height: 2em;
+  background-color: #86f9ba;
+}
+nav a{
+  color: #9498eb;
+  padding: 0 2em;
+  text-decoration: none;
+  line-height: 2em;
+  display: block;
+}
+nav li:hover{
+  background-color: #fe9181;
+}
+nav>ul>li {
+  float: left;
+  text-align: center;
+  width: 20%;
+  border-right: 2px solid #318af7;
+  border-left: 2px solid #318af7;
+  box-sizing: border-box;
+}
+h3{
+  color: red;
+  font-size: 60px;
+}
+input[type="text"], input[type="email"] {
+  background-color: #feeb01;
+  width: 250px;
+  height: 50px;
+  border-radius: 50px;
+  box-shadow: 0 0 3em #78a inset;
+}
+input[type="text"]:focus{
+  background-color: #35b8ca;
+  color: red;
+}
+#submit {
+  background-color: blue;
+  color: yellow;
+  height: 50px;
+  width: 250px;
+  border-radius: 50px;
+  box-shadow: 0 0 3em #78a inset;
+}
+#submit:hover {
+  background-color: yellow;
+  color: blue;
+}
+body{
+  width: 98%;
+  margin:auto;
+  font-size: 15px;
+  font-family: 'Shrikhand', cursive;
+}
+.attentie {
+  font-size: 8em;
+}
+.tekst {
+  font-size: 6em;
+}
+#validatie img {
+    height: 1em;
+    width: auto;
+    border: 0;
+    margin: 0 .3em;
+}

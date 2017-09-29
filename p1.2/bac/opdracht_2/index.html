@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lost Dog</title>
+</head>
+<body>
+  <form method="post" action="report.php">
+      <label for="firstname">First name:</label>
+      <input type="text" id="firstname" name="firstname" /><br>
+
+      <label for="middlename">Middle name:</label>
+      <input type="text" id="middlename" name="middlename" /><br>
+
+      <label for="lastname">Last name:</label>
+      <input type="text" id="lastname" name="lastname" /><br>
+
+      <label for="fangspotted">Have you seen my dog?</label><br>
+      <label for="yes">Yes?</label>
+      <input type="radio" id="fangspotted" name="fangspotted" value="yes" />
+      <label for="no">No?</label>
+      <input type="radio" id="fangspotted" name="fangspotted" value="no" />
+      <label for="maybe">Maybe?</label>
+      <input type="radio" id="fangspotted" name="fangspotted" value="maybe" />
+      <br>
+
+      <label for="eigenschap">Have you seen a dog with any of those characteristics</label>
+      <br>
+      <input type="checkbox" name="eigenschap" value="brown">Brown
+      <input type="checkbox" name="eigenschap" value="white">White
+      <input type="checkbox" name="eigenschap" value="black">Black
+      <br>
+
+      <label for="other">Anything else you want to add?</label><br>
+      <textarea id="other" name="other"></textarea><br>
+
+      <label for="email">E-mail:</label>
+      <input type="text" id="email" name="email" /><br>
+
+      <select name="types">
+        <option selected>Siberische Husky
+        <option>Labrador
+        <option>Poedel
+      </select>
+      <br>
+
+      <input type="submit" value="Report Abduction" name="submit" />
+    </form>
+</body>
+</html>

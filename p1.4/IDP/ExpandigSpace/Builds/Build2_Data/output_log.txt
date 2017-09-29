@@ -1,0 +1,50 @@
+Initialize engine version: 5.6.0f3 (497a0f351392)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 960M (ID=0x139b)
+    Vendor:   NVIDIA
+    VRAM:     2017 MB
+    Driver:   22.21.13.8205
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\vanDo\Documents\GitHub\ExpandingSpace\ExpandigSpace\Builds\Build2_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\vanDo\Documents\GitHub\ExpandingSpace\ExpandigSpace\Builds\Build2_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\vanDo\Documents\GitHub\ExpandingSpace\ExpandigSpace\Builds\Build2_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\vanDo\Documents\GitHub\ExpandingSpace\ExpandigSpace\Builds\Build2_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\vanDo\Documents\GitHub\ExpandingSpace\ExpandigSpace\Builds\Build2_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\vanDo\Documents\GitHub\ExpandingSpace\ExpandigSpace\Builds\Build2_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\vanDo\Documents\GitHub\ExpandingSpace\ExpandigSpace\Builds\Build2_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\vanDo\Documents\GitHub\ExpandingSpace\ExpandigSpace\Builds\Build2_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.072 seconds
+Platform assembly: C:\Users\vanDo\Documents\GitHub\ExpandingSpace\ExpandigSpace\Builds\Build2_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\vanDo\Documents\GitHub\ExpandingSpace\ExpandigSpace\Builds\Build2_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 6.376691 ms
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: d520 -> priority: 1 
+  Thread -> id: d978 -> priority: 1 
+  Thread -> id: dde4 -> priority: 1 
+  Thread -> id: bc94 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.328296 ms
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 279.
+Total: 0.271012 ms (FindLiveObjects: 0.032000 ms CreateObjectMapping: 0.027259 ms MarkObjects: 0.156839 ms  DeleteObjects: 0.054518 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.581925 ms
+The AnimationClip 'Main' used by the Animation component 'blauw huisje' must be marked as Legacy.
+ 
+(Filename:  Line: 2008)
+
+Default clip could not be found in attached animations list.
+ 
+(Filename:  Line: 395)
+
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1405.
+Total: 1.411555 ms (FindLiveObjects: 0.092839 ms CreateObjectMapping: 0.024888 ms MarkObjects: 0.348049 ms  DeleteObjects: 0.945382 ms)
+

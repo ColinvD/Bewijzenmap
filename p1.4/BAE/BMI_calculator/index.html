@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BMI calculator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="container">
+        <form method="GET" action="BMIcalculator.php">
+            <p>Wat is je naam? <input type="text" name="input1" placeholder="naam" required> </p>
+            <p>Wat is je lengte? <input type="number" step= "0.1" name="input2" placeholder="in cm" required> </p>
+            <p>Wat is je gewicht? <input type="number" step= "0.1" name="input3" placeholder="in kg" required></p>
+            <p>Ben je een man of een vrouw? Man: <input type="radio" name="input4" value="male"> Vrouw: <input type="radio" name="input4" value="female"></p>
+            <input type="submit" name="bereken" value="bereken">
+        </form>
+    </div>
+  </body>
+</html>

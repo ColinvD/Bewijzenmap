@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BMI calculator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="container">
+        <form>
+            <p>Wat is je naam? <input type="text" id="input1" placeholder="naam" required> </p>
+            <p>Wat is je lengte? <input type="number" step= "0.1" id="input2" placeholder="in cm" required> </p>
+            <p>Wat is je gewicht? <input type="number" step= "0.1" id="input3" placeholder="in kg" required></p>
+            <p>Ben je een man of een vrouw? Man: <input type="radio" id="man" name="input4" value="male">
+              Vrouw: <input type="radio" id="vrouw" name="input4" value="female"></p>
+            <input type="button" name="bereken" value="bereken" id="submit">
+        </form>
+        <p><span id="uitkomst"></span></p>
+    </div>
+    <script src="Ajax.js"></script>
+    <script>
+        document.getElementById('submit').addEventListener("click", function(){
+          var input1 = document.getElementById('input1').value;
+          var input2 = document.getElementById('input2').value;
+          var input3 = document.getElementById('input3').value;
+          var man = document.getElementById('man').value;
+          var vrouw = document.getElementById('vrouw').value;
+          if(document.getElementById('man').checked){
+            var input4 = document.getElementById('man').value;
+          } else if(document.getElementById('vrouw').checked){
+            var input4 = document.getElementById('vrouw').value;
+          }
+          showHint(input1, input2, input3, input4);
+        });
+    </script>
+  </body>
+</html>

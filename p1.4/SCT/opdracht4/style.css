@@ -1,0 +1,11 @@
+body{
+  background-color: teal;
+}
+#container{
+  width: 800px;
+  margin: 50px auto;
+}
+#canvas{
+  border: 2px black solid;
+  background-color: aliceblue;
+}

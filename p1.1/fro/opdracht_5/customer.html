@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="stylesheet" type="text/css" href="home.css" />
+    <meta charset = "utf-8">
+    <title>Customer Information</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">homepagina</a></li>
+        <li><a href="customer.html">customer information</a></li>
+        <li><a href="Post.html">Posting your comments</a></li>
+        <li><a href="Payment.html">Pay</a></li>
+        <li><a href="Configuration.html">PC confirmen</a></li>
+      </ul>
+    </nav>
+    <form id="contact" action="http://schw.hosts.ma-cloud.nl/fop/form1/customer_information.php" method = "GET">
+    <fieldset>
+    <legend>Customer Information</legend>
+      <label>Name *</label>
+      <input type="text" name="custname" placeholder="first and last name" required="required" autofocus/>
+      <br/>
+      <label>City</label> <input type="text" name="city" value="Amsterdam" />
+      <br/>
+      <label>E-mail *</label> <input type="text" name="email" placeholder="12345@ma-web.nl" required="required" />
+      <br/>
+      <label>Where did you hear about us?</label>
+      <select name="hearAboutUs" >
+        <option value="Internet">Internet</option>
+        <option value="Television">TV</option>
+        <option value="Magazine" selected>Magazine</option>
+      </select>
+      <br/><br/>
+      <input type="submit" value="Submit Form" id="submit" />
+      </fieldset>
+    </form>
+    <footer>
+    <div id="validatie">
+    <a href="http://validator.w3.org/check?uri=referer" target="_blank">
+        <img src="http://blog.boyet.com/blog/files/media/image/valid-html5-blue.png" alt="Valide HTML5"></a>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+        <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue.gif" alt="Valide CSS">
+    </a>
+</div>
+</footer>
+  </body>
+</html>

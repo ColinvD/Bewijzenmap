@@ -1,0 +1,11 @@
+html{
+    background-color: royalblue;
+}
+
+table, td {
+    border-style: dashed;
+    border-color: darkviolet;
+    border-width: 5px;
+    padding: 10px;
+    border-collapse: collapse;
+}

@@ -1,0 +1,5 @@
+sceneSetups:
+- path: C:/Users/vanDo/Documents/random testing stuff/tutorial roll a ball/tutorial
+    roll a ball/Assets/_Scenes/MiniGame.unity
+  isLoaded: 1
+  isActive: 1
