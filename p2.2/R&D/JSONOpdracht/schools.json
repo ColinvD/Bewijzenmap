@@ -1,0 +1,24 @@
+{
+  "school":{
+    "Mediacollege":{
+    "category": "MBO",
+    "nr_students": 20000,
+    "courses":{
+      "MD": "Mediadevelopment",
+      "subClasses":{
+        "FE": "Front-end",
+        "BE": "Back-end"
+      },
+      "GD": "Gamedevelopment"
+    }
+    },
+    "Horizoncollege":{
+      "category": "MBO",
+      "nr_students": 10000,
+      "courses":{
+        "VZ": "Verzorging",
+        "HM": "Hospitalitymanagement"
+      }
+    }
+  }
+}
