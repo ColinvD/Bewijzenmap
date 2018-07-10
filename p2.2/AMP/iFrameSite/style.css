@@ -1,0 +1,56 @@
+body{
+  background-color: navy;
+}
+
+#sites{
+  display: block;
+  overflow: hidden;
+  background-color: maroon;
+  border: 2px black solid;
+  float: right;
+  margin: 10px 100px 0px 0px;
+}
+
+tbody,thead,th,td,a{
+  color: white;
+}
+
+table, th, td{
+  border: 1px solid red;
+}
+
+th{
+  text-align: left;
+}
+
+th,td{
+  padding: 5px;
+}
+
+table {
+    width: 296px; /* 140px * 5 column + 16px scrollbar width */
+    border-spacing: 0;
+    display: block;
+    float: left;
+    margin: 200px 0px 0px 50px;
+}
+
+tbody, thead tr { display: block; }
+
+tbody {
+    height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+tbody td, thead th {
+    width: 140px;
+}
+
+tbody td{
+  width: 132px;
+}
+
+thead th:last-child {
+    width: 156px; /* 140px + 16px scrollbar width */
+}

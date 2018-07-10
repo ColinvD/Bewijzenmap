@@ -4,7 +4,6 @@ const feedback = document.getElementById('feedback');
 const score = document.getElementById('score');
 const level = document.getElementById('level');
 
-
 let questionAmount = 0;
 let rightQuestions = 0;
 let difficulty = 9;

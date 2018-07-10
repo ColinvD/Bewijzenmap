@@ -1,0 +1,11 @@
+body{
+  background-color: navy;
+}
+
+#canvas{
+  background-image: url(grid.png);
+  display: block;
+  margin: 50px auto;
+  background-color: white;
+  border: 2px black solid;
+}

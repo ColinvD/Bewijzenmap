@@ -16,6 +16,12 @@ body{
   border-radius: 12px;
 }
 
+#timer{
+  grid-column: 1/2;
+  grid-row: 1;
+  background-color: silver;
+}
+
 #problem{
   grid-column: 2/3;
   grid-row: 1;

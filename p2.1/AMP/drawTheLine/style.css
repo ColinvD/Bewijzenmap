@@ -1,0 +1,10 @@
+body{
+  background-color: navy;
+}
+
+#canvas{
+  display: block;
+  margin: 50px auto;
+  background-color: maroon;
+  border: 2px black solid;
+}
